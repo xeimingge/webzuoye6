@@ -1,0 +1,504 @@
+/*
+* @Author: 12699
+* @Date:   2020-05-23 15:59:51
+* @Last Modified by:   12699
+* @Last Modified time: 2020-05-26 11:54:40
+*/
+body{
+	background-color:#f3f5f7;
+}
+.top2{
+	width: 100%;
+	background-color:#fff;
+	height: 100px;
+}
+.top1{
+	width: 1200px;
+	height: 100px;
+	margin:0 auto;
+}
+.top1>p{
+	display: inline-block;
+	font-size:40px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	width: 170px;
+	padding: 20px 11px 29px 9px;
+	float: left;
+	
+}
+.top1 ul{
+	height: 28px;
+	width: 285px;
+	float: left;
+	margin-top: 36px;
+	margin-bottom: 36px;
+	margin-left: 60px;
+
+}	
+.top1 ul>li{
+	text-align: center;
+	float: left;
+	font-size: 18px;
+	margin-right: 28px;
+}
+.top1 ul>li a{
+
+	display: inline-block;
+	
+	color: #050505;
+	padding: 0 8px 10px 8px;
+
+}
+.top1 ul>li a:hover{
+	border-bottom:2px solid #00A4FF;
+}
+.top1>a{
+	font-size: 14px;
+	height: 12px;
+	transform: scale(1,0.8);	/* 调整字体宽窄 */
+	width: 60px; 
+	float: right;
+	color: #666666;
+	margin:40px 12px 45px 31px;
+}
+.top1>a:hover{
+	color: #00A4FF;
+}
+.top1>.box .subimt{
+	float: right;
+	width: 50px;
+	height: 40px;
+	margin: 30px 0 30px 0;
+	border:1.5px solid #00A4FF;
+	background:#00A4FF url(../images/雪梨在线_slices/雪梨在线_03.png) no-repeat center center;
+}
+
+.search{
+	float: right;
+	width: 361px;
+	height: 37px;
+	font-size: 14px;
+	margin: 30px 0 30px 0;
+	border:1.5px solid #00A4FF;
+	
+}
+
+.blue{
+	width:100%;
+	height:420px;
+	background:rgba(28,3,108,1);
+}
+.blue>.big{
+	width: 1200px;
+	height:420px;
+	margin:0 auto;
+	position: relative;
+
+}
+.blue>.big img{
+	position : absolute;
+	left: 30px;
+}
+.blue>.big .mulu{
+	position : absolute;
+	left: 0;
+	width:190px;
+	height:420px;
+	background:rgba(0,0,0,0.3);
+	
+}
+.blue>.big .mulu ul{
+	height: 365px;
+	width: 101px;
+	margin: 27px 21px 28px 20px;
+}
+.blue>.big li{
+	width: 149px;
+	height: 22px;
+	margin-bottom: 20.8px;
+	font-size: 14px;
+	position: relative;
+	
+}
+.blue>.big li a{
+	color: #fff;
+}
+
+.arrow{
+	position : absolute;
+	right: 0;
+}
+.blue>.big li a:hover{
+	color: #00B4FF;
+}
+.xinqu{
+	margin: 8px auto;
+	padding-top: 1px;
+	width:1200px;
+	height:59px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+}
+.xinqu .box1{
+	width:1105px;
+	height:18px;	
+	margin: 21px 61px 21px 34px;
+	position: relative;
+}
+.xinqu li{
+	float:left;	
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	width: 120px;
+}
+.xinqu li a{
+	color: #050505;
+	display: inline-block;
+	padding-left: 20px;
+	border-left: 1px solid #BFBFBF;
+}
+.xinqu ul p{
+	color:#00A4FF;
+}
+
+.xinqu>.box1>a{
+	color:#00A4FF;	
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	position : absolute;
+	right: 0;
+	bottom: 0;
+}
+.xinqu>.box1 a:hover{
+	color:#00A4FF;	
+}
+.tuijian{
+	width: 1200px;
+	margin: 0 auto;
+	height: 79px;
+	position: relative;
+
+}
+.tuijian p{
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	position : absolute;
+	top: 37px;
+}
+.tuijian a{
+	width:48px;
+	height:13px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+	position : absolute;
+	right: 35px;
+	bottom: 19px;
+}
+.tuijian a:hover{
+	color:#00A4FF;
+}
+.jinping{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	background-color: #f3f5f7;
+
+}
+.jinping .box{
+	width: 228px;
+	height: 270px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	float: left;
+	margin-right: 15px;
+}
+.jinping>.last{
+	margin-right: 0px;
+}
+.jinping .box>img{
+	width: 228px;
+	height:155px; 
+}
+.jinping .box>a{
+	display: inline-block;
+	width:185px;
+	height:34px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px; 
+	margin: 24px 22px 18px 22px;
+}
+.jinping .box>a:hover{
+	color:#00A4FF;
+}
+.jinping .box>div{
+	width:119px;
+	height:13px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:#999999;
+	margin-left: 22px;
+}
+.jinping .box span{
+	color: #FF7C2D;
+}
+.qianduan{
+	height: 22px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 22px 0 18px 0;
+	position: relative;
+
+}
+.qianduan>p{
+	float: left;
+	width:140px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+
+}
+.qianduan>ul{
+	width:340px;
+	height:17px;
+	margin:0 auto;
+	padding-top:4px;  
+}
+.qianduan li{
+	float: left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	padding-right: 68px;
+}
+.qianduan>ul .last{
+	padding-right: 0px;
+}
+.qianduan li>a{
+	color:#868686;
+
+}
+.qianduan li>a:hover{
+	color:#00A4FF;
+}
+.qianduan>a{
+	width:48px;
+	height:13px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+	position : absolute;
+	right: 35px;
+	bottom: 17px;
+}
+.qianduan>a:hover{
+	color: #00A4FF;
+}
+.niuren{
+	width: 1200px;
+	height: 465px;
+	margin: 0 auto;
+}
+.niuren>p{
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	margin: 20px 1120px 33px 0px;
+}
+.niuren>.banner{
+	width: 1200px;
+	height: 320px;
+}
+.niuren .first{
+	width:471px;
+	height:320px;
+	display: inline-block;
+	position: relative;
+}
+.niuren .first>.content{
+	width:163px;
+	height:62px;
+	position: absolute;
+	left: 25px;
+	top: 99px;
+	line-height:36px;
+}
+.niuren .first .one{
+	font-size:30px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+}
+.niuren .first .two{
+	font-size:27px;
+	font-family:MicrosoftYaHei;
+	color:#FFFFFF;
+	
+}
+.niuren .first>a{
+	display: inline-block;
+	width:87px;
+	height:25px;
+	font-size:13px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(249,225,3,1);
+	text-align: center;
+	line-height:26px;
+	position: absolute;
+	border: 1px solid #F9E103;
+	left: 25px;
+	bottom: 110px;
+	
+}
+.niuren .first>a:hover{
+	color: #00A4FF;
+	border: 1px solid #00A4FF;
+}
+.niuren .banner>.people{
+	display: inline-block;
+	float: right;
+	width:228px;
+	height:320px;
+	margin-left: 15px;
+	position: relative;
+}
+.niuren .people .tags{
+	position: absolute;
+	bottom: 0;
+	width:228px;
+	height:122px;
+	background:rgba(0,0,0,0.5);
+}
+.niuren .people .one{
+	width:128px;
+	height:18px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	margin: 21px 0 0 29px;
+}
+.niuren .people .one span{
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+}
+.niuren .people .two{
+	width:175px;
+	height:53px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	margin: 12px 0 0 25px;
+}
+.ending{
+	width: 100%;
+	height:417px;
+	background:rgba(255,255,255,1);
+}
+.ending .box{
+	width: 1200px;
+	height:417px;
+	margin: 0 auto;
+}
+.ending .box>.first{
+	display: inline-block;
+	float: left;
+	width: 380px;
+	height: 160px;
+	margin: 135px 140px 0px 21px;
+}
+.ending>.box .one{
+	display: inline-block;
+	width: 163px;
+	height:36px;
+	font-size:36px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	line-height:21px;
+}
+.ending>.box .two{
+	display: inline-block;
+	height:12px;
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	margin-top: 35px;
+}
+.ending .first>a{
+	display: inline-block;
+	width:120px;
+	height:36px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+	border: 1px solid #00A4FF;
+	line-height:36px;
+	text-align: center;
+	margin-top:33px;
+}
+.ending .first>a:hover{
+	font-weight : bold;
+	border: 2px solid #00A4FF;
+}
+.ending>.box>ul{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 127px;
+	margin: 140px 0 10px 110px;
+}
+.ending>.box li{
+	
+	height: 15px;
+	width: 100px;
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;	
+	line-height:14px;
+	margin-bottom: 5px;
+}
+.ending>.box>ul a{
+	color:rgba(51,51,51,1);
+}
+.ending>.box .top{	
+	margin-bottom: 15px;
+	width: 100px;
+	height:20px;	
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
+.ending>.box>ul a:hover{
+	color: #00A4FF;
+}
